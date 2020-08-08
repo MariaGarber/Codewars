@@ -1,0 +1,123 @@
+
+
+.war-history{
+    height: 600px;
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+/* .war-history-header{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-bottom: 10px;
+
+}
+
+.war-history-header span{
+
+    border: 1px solid black;
+
+}
+
+.war-history-info{
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.war-history-info-box{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+}
+
+.war-history-name-flex{
+    display: flex;
+}
+
+.war-history-beginner{
+    width: 16px;
+    height: 100%;
+    background-color: rgb(118, 216, 118);
+    
+} */
+
+
+.war-history-table{
+    /* border-collapse: collapse; */
+    width: 100%;
+    /* border-collapse: separate;
+    border-spacing: 0 1em; */
+
+}
+
+.war-history-table th{
+    text-align: center;
+
+    border: none;
+    /* text-align: center; */
+    background-color: rgb(245, 244, 244);
+
+
+}
+
+.war-history-table tr{
+    /* border: 2px solid rgb(173, 31, 31); */
+    border-spacing: 10px;
+
+    height: 50px;
+
+}
+.war-history-table td{
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(51, 46, 46, 0.6);
+    text-align: center;
+    margin: 0;
+    /* background-color: rgb(245, 244, 244); */
+}
+
+.td-flex{
+    display: flex;
+
+}
+.war-history-verticly-center{
+    padding-left: 5px;
+    padding-top: 13px;
+}
+
+
+.war-history-beginner{
+    width: 16px;
+    height: 50px;
+    background-color: rgb(118, 216, 118);
+    border-radius: 8px;
+
+}
+
+.war-history-intermediate{
+    width: 16px;
+    height: 50px;
+    background-color: rgb(206, 181, 98);
+    border-radius: 8px;
+
+}
+
+.war-history-expert{
+    width: 16px;
+    height: 50px;
+    background-color: rgb(202, 92, 92);
+    border-radius: 8px;
+
+}
+
+.war-history-imge{
+    height: 40px;
+    width: 30px;
+}
+

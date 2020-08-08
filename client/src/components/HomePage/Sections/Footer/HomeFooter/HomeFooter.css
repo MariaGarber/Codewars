@@ -1,0 +1,20 @@
+
+
+.home-footer{
+    /* height: 200px; */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    /* background-color: rgb(172, 172, 172); */
+    background-color: rgb(170, 170, 170);
+    color: white;
+    font-size: 20px;
+    
+}
+
+.home-footer-line{
+    border-top: 1px solid gray;
+    width: 70%;
+    margin:20px auto;
+    
+}

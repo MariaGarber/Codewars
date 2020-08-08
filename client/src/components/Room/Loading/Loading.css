@@ -1,0 +1,47 @@
+
+
+.Loading{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(32, 37, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+
+
+.loading-text {
+    transition: 1s;
+}
+.loading-text h1{
+    color: rgb(255, 255, 255);
+    padding-top: 10%;
+    margin-bottom: 1%;
+    font-size: 45px;
+    text-align: center;
+}
+.loading-text h2{
+    text-align: center;
+
+    color: white;
+    font-size: 30px;
+}
+
+.Waiting-effect{
+    animation: blinker 3s linear infinite;
+}
+.loading-bars{
+    animation: blinker  3s linear infinite;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }

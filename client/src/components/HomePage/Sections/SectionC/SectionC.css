@@ -1,0 +1,106 @@
+#section-c {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  background-color: rgb(237, 237, 237);
+}
+
+.section-c-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* border: 1px solid black; */
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 10px;
+}
+.section-c-h1 {
+  color: rgb(221, 51, 51);
+}
+.section-c-text {
+  /* border: 1px solid black; */
+  padding: 25px;
+}
+.section-c-text h1 {
+  margin-bottom: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  /* padding-left: 150px; */
+}
+
+.section-c-text p {
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px solid black; */
+  /* padding-left: 150px; */
+
+  width: 90%;
+  line-height: 25px;
+  font-size: 18px;
+  color: rgb(136, 136, 136);
+  /* margin: 10px; */
+}
+.section-c-text-icons {
+  /* border: 1px solid black; */
+  margin-top: 10%;
+  /* padding-left: 120px; */
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-c-icon {
+  color: rgb(87, 87, 87);
+  font-size: 30px;
+}
+.section-c-text-info {
+  /* border: 1px solid black; */
+  text-align: center;
+  padding: 5px;
+  margin-right: 10%;
+}
+
+.section-c-form {
+  padding-top: 40px;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+.section-c-form input,
+textarea {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid rgb(187, 187, 187);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.section-c-input {
+  padding: 10px;
+
+  height: 35px;
+  width: 60%;
+}
+
+.section-c-input:focus {
+  background-color: rgb(241, 241, 241);
+}
+.section-c-textarea {
+  width: 60%;
+  height: 50%;
+  font-size: 15px;
+}
+
+.section-c-btn {
+  width: 60%;
+  height: 30px;
+  background-color: rgb(221, 51, 51);
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.section-c-btn:hover {
+  background-color: rgb(230, 103, 103);
+}

@@ -1,0 +1,74 @@
+
+
+.section-a{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    /* border: 1px solid rgb(204, 54, 54); */
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: rgb(66, 179, 145);
+    border-bottom-right-radius: 500px 450px;
+    /* background-color: aquamarine; */
+}
+
+.section-a-container{
+    height: 100%;
+    width: 100%;
+    /* padding: 20px; */
+    padding-top: 140px;
+    padding-left: 60px;
+}
+
+#section-a-h1{
+    margin-bottom: 40px;
+}
+
+.section-a h1{
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 10px;
+    
+}
+
+.section-a p{
+    color: rgb(245, 245, 245);
+    font-size: 22px;
+    margin-top: 5px;
+
+}
+
+#section-a-btn{
+    margin-top: 35px;
+    height: 45px;
+    width: 200px;
+    border-radius:3px ;
+    border: none;
+    background-color: rgb(48, 182, 206);
+    color: white;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+
+
+#section-a-btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+
+.section-a-pic{
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../../../../assets/section-a-tranparen.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20%;
+    height: 510px;
+    width: 100%;
+    /* background-color: none; */
+    /* border: 1px solid black; */
+}

@@ -1,0 +1,85 @@
+.report {
+  min-height: 700px;
+  width: 85%;
+  margin: auto;
+}
+
+/* ----------------------- Report Top -------------------------*/
+
+.report-top {
+  height: 400px;
+  margin-bottom: 1%;
+}
+
+.report-top h1 {
+  margin: 2% 0px;
+  font-size: 50px;
+}
+
+.report-top h2 {
+  margin: 1% 0px;
+  font-size: 30px;
+}
+
+.report-score-win {
+  color: rgb(87, 194, 87);
+  font-size: 50px;
+}
+
+.report-score-lose {
+  color: brown;
+  font-size: 50px;
+}
+
+.lose {
+  margin-left: 29%;
+  font-size: 30px;
+  color: brown;
+}
+
+.win {
+  margin-left: 29%;
+  font-size: 30px;
+  color: rgb(87, 194, 87);
+}
+
+.report-top-line {
+  border-bottom: 1px solid rgb(199, 194, 194);
+  width: 90%;
+  margin: 3% 3%;
+}
+
+.report-medal {
+  height: 50px;
+  width: 40px;
+}
+
+/* ----------------------- Report Middle -------------------------*/
+
+.report-middle {
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.report-question {
+  height: 100%;
+  width: 100%;
+  border: 2px solid rgba(234, 230, 236);
+}
+
+.report-submitted-code {
+  height: 100%;
+  width: 100%;
+  margin-left: 20px;
+}
+
+/* ----------------------- Report Down -------------------------*/
+
+.report-down {
+  padding-bottom: 30px;
+}
+
+.report-down h1 {
+  margin: 2% 0;
+}

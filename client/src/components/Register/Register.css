@@ -1,0 +1,207 @@
+.register-container {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  height: 100%;
+}
+
+.register-left {
+  position: relative;
+  padding: 10px;
+  height: 100%;
+}
+
+.register-tool-tip {
+  display: flex;
+}
+
+.register-left p {
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.register-left-form-container {
+  min-height: 550px;
+  width: 60%;
+  padding: 5px;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -42%);
+  text-align: center;
+}
+
+.register-left-form-container h1 {
+  color: rgb(109, 201, 170);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.register-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  height: 40px;
+  width: 70%;
+  border: none;
+  background-color: rgb(231, 226, 226);
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.register-input:focus {
+  background-color: rgb(216, 211, 211);
+}
+
+.register-left-form-container input::placeholder {
+  color: rgb(104, 103, 103);
+}
+.register-left-form-container input:focus::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.register-btn {
+  margin-top: 30px;
+  height: 40px;
+  width: 45%;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(109, 201, 170);
+  color: white;
+  transition: 0.3s;
+}
+
+.register-btn:hover {
+  cursor: pointer;
+  background-color: rgb(90, 185, 154);
+}
+
+.register-date {
+  text-align: left;
+  width: 70%;
+  margin: 0px auto;
+  padding: 0px 6px;
+}
+
+.register-date label {
+  margin-right: 10px;
+}
+
+.date-picker {
+  margin-top: 15px;
+  height: 25px;
+  text-align: center;
+  width: 100%;
+}
+
+.register-country {
+  text-align: left;
+  width: 70%;
+  margin: 0px auto;
+  padding: 0px 6px;
+}
+
+.register-country label {
+  margin-right: 5px;
+}
+
+.country-dropdown {
+  margin-top: 15px;
+  height: 25px;
+  width: 40%;
+  text-align: center;
+}
+
+#first-name {
+  width: 34%;
+}
+
+#last-name {
+  width: 34%;
+  margin-left: 2%;
+}
+
+.register-radio-btns {
+  text-align: left;
+  width: 70%;
+  margin: 3px auto;
+  padding: 6px;
+}
+
+.register-radio-btns label {
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.register-h4 {
+  margin-right: 15px;
+  display: inline-block;
+  font-weight: lighter;
+}
+
+.register-level-radio-btns {
+  text-align: left;
+  margin-top: 10px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 6px;
+}
+
+.register-level-radio-btns label {
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.register-level-radio-btns p {
+  margin-bottom: 5px;
+}
+
+.register-right {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('../../assets/login-right.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 105%;
+  width: 100%;
+  position: relative;
+}
+
+.register-right-text-container {
+  height: 350px;
+  width: 60%;
+  padding: 5px;
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+
+.register-right-text-container h1 {
+  margin-bottom: 15px;
+  color: white;
+}
+
+.register-right-text-container p {
+  font-size: 18px;
+  margin: 4px 0px;
+  color: white;
+}
+
+#sigh-in-btn {
+  margin-top: 15px;
+
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(109, 201, 170);
+  color: white;
+  transition: 0.3s;
+}
+
+#sigh-in-btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid white;
+}

@@ -1,0 +1,37 @@
+
+.search-result{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+}
+
+.search-result-container{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    height: 85%;
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    /* border: 1px solid rgb(144, 30, 30); */
+    overflow-y: scroll;
+
+
+
+}
+
+.search-result-line{
+    border-top: 1px solid rgb(184, 184, 184);
+    width: 100%;
+    margin:15px auto;
+}
+
+
+.search-result-table{
+    width: 100%;
+}
+
+.search-result-center{
+    text-align: center;
+}
+

@@ -1,0 +1,256 @@
+.loggedIn-nav {
+  background-color: rgb(30, 190, 165);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(15, 149, 129);
+  color: white;
+}
+
+.loggedIn-nav-logo {
+  width: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loggedIn-nav-logo h1 {
+  font-size: 28px;
+  transition: 0.3s all ease;
+}
+
+.loggedIn-nav-logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.loggedIn-nav-logo h1:hover {
+  font-size: 32px;
+}
+
+.loggedIn-nav-logo p {
+  margin-left: 20px;
+  font-size: 19px;
+}
+
+.loggedIn-nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 350px;
+}
+
+.loggedIn-nav-links li {
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+.loggedIn-nav-links a {
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s all ease-in-out;
+  color: white;
+  font-size: 18px;
+}
+
+.loggedIn-nav-links a:hover {
+  font-size: 19px;
+  color: skyblue;
+}
+
+.name-and-img {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.navName label {
+  font-size: 18px;
+}
+
+.loggedIn-nav-drop-img {
+  margin-top: 4%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.loggedIn-nav-dropdown-content {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  background-color: rgb(230, 233, 232);
+  min-height: 170px;
+  transition: 0.4s all ease;
+}
+
+.loggedIn-nav-dropdown-content ul {
+  list-style: none;
+}
+
+.loggedIn-nav-dropdown-content ul li {
+  text-align: center;
+  padding: 5px;
+  margin: 20px 0px;
+}
+.loggedIn-nav-dropdown-content ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.loggedIn-nav-dropdown-content ul li a:hover {
+  color: skyblue;
+  transition: 0.3s all ease-in-out;
+}
+
+.loggedIn-nav-dropdown-content i {
+  position: absolute;
+  left: 5px;
+  color: black;
+  font-size: 20px;
+}
+
+.loggedIn-nav-show {
+  opacity: 1;
+  display: block;
+}
+
+.nav-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.nav-search input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+}
+
+.nav-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(144, 231, 202, 0.5);
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.nav-search-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-search-icon {
+  margin-right: 2%;
+  font-size: 23px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.nav-search-icon:hover {
+  color: rgb(224, 223, 223);
+}
+
+#nav-notofication {
+  margin-top: 9%;
+}
+
+.one-row {
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #000;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.one-row a{
+  text-decoration: none;
+
+}
+
+.one-row-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.one-row button{
+  height: 25px;
+  width: 80px;
+  border: none;
+  margin: 0 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+
+}
+
+.blue-btn-notification{
+  background-color: rgb(23, 113, 230);
+}
+
+.blue-btn-notification:hover{
+  background-color: rgb(82, 165, 233);
+}
+.red-btn-notification{
+  background-color: rgb(170, 170, 170);
+
+}
+.red-btn-notification:hover{
+  background-color: rgb(202, 202, 202);
+}
+
+.notification-box-color{
+  color: black;
+}
+
+.name-in-notification{
+  color: black;
+  margin: 0 5px;
+}
+
+.notification-div{
+  align-items: center;
+  display: flex;
+}
+
+.notification-line{
+  width: 300px;
+  margin-left: 55px;
+  margin-bottom: 10px;
+  border-top: 1px solid rgb(184, 184, 184,0.5);
+  border-radius: 10px;
+}
+
+.friendship-accepted{
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  /* padding-top: 10px; */
+  /* padding-left: 55px; */
+  /* padding-bottom: 10px; */
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+
+.friendship-accepted-line{
+  border-top: 1px solid gray;
+
+}

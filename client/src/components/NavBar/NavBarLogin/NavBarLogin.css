@@ -1,0 +1,64 @@
+
+
+.nav-bar-login-register{
+    padding: 20px;
+    display: flex;
+    position: fixed;
+    width: 50%;
+    min-height: 55px;
+    z-index: 2;
+}
+.nav-bar-login-register p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(17, 155, 109);
+}
+
+#logo-h1:hover{
+    text-decoration: none;
+}
+#logo-h1 h1{
+    transition: 0.3s; 
+}
+
+
+#logo-h1 h1:hover{
+    font-size: 35px;
+    
+}
+.nav-bar-login-register h1{
+    color: rgb(109, 201, 170);
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+
+
+.nav-bar-login-register ul {
+    width: 40%;
+    margin-left: 2%;
+    list-style: none;
+    display: flex;
+    padding-top: 6px;
+    /* border: 1px solid black; */
+}
+
+.nav-bar-login-register ul li{
+    margin-top: 3px;
+    margin-left: 22px;
+
+}
+
+.login-register-links{
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    transition: 0.3s;
+    text-decoration: none;    
+}
+
+.login-register-links:hover{
+    cursor: pointer;
+    color: skyblue;
+    text-decoration: underline dotted; 
+    
+}

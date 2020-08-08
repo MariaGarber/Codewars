@@ -1,0 +1,65 @@
+.search-result-table th{
+    border: none;
+    background-color: rgb(245, 244, 244);
+    border-radius: 5px;
+}
+
+.search-result-table tr{
+    border-spacing: 10px;
+}
+
+.search-result-table td{
+
+    border: none;
+    border-bottom: 1px solid rgba(51, 46, 46, 0.6);
+}
+
+.shorter-td{
+    width: 40%;
+}
+
+.search-img-name{
+    display: flex;
+    width: 100%;
+}
+.search-img-name-info{
+    padding-left: 5px;
+}
+
+.search-img-name-info p{
+    margin: 8px 0px;
+    
+}
+.search-img-name label{
+    padding-top: 5px;
+}
+
+.search-img-name img{
+    height: 80px;
+    width: 80px;
+}
+
+.search-member-since{
+    text-align: center;
+}
+
+.search-flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serach-add-user{
+    text-align: center;
+}
+.serach-add-user-icon{
+    color: rgb(199, 86, 86);
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.serach-add-user-icon:hover{
+    font-size: 33px;
+    transform: scale(1.2);
+}
+

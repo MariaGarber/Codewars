@@ -1,0 +1,41 @@
+
+
+
+.name-and-level{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.exit-btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(228, 114, 114);
+    color: white;
+    font-size: 16px;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.exit-btn:hover{
+    background-color: rgb(221, 73, 73);
+}
+.react-confirm-alert-button-group{
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    margin-left: 98px;
+   
+}
+
+.react-confirm-alert-button-group > button {
+    background: rgb(80, 190, 154);
+  }
+  
+  .react-confirm-alert-body {
+    text-align: center;
+  }

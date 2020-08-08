@@ -1,0 +1,23 @@
+
+
+.win-timer-container{text-align: center;}
+
+.win-timer-flex{
+    color: rgb(192, 110, 110);
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+.demo2-txt{
+    
+    text-align: center;
+}
+
+.demo2{color: rgb(192, 110, 110);}
+
+.loading-room{
+    display: none;
+    height: 50px;
+    width: 50px;
+}

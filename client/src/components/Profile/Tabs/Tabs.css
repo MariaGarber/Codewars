@@ -1,0 +1,9 @@
+.myclass {
+  /* background-color: rgb(47, 50, 53); */
+  background-image: linear-gradient(to right, rgb(47, 50, 53) , rgb(107, 111, 114));
+}
+/* 
+.test{
+  height: 100%;
+  background-color:rgb(237, 237, 237); 
+} */

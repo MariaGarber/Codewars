@@ -1,0 +1,149 @@
+
+
+.stats{
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.stats-up{
+  height:250px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+}
+
+.stats-up-left{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.stats-up-left h2{
+  margin: 5px;
+  text-align: center;
+}
+
+.circular-progressbar{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.stats-up-right{
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+}
+
+.stats-up-right-line{
+  width: 80%;
+  border-top: 1px solid grey;
+}
+
+.stats-up-right-box{
+  height: 150px;
+  width: 180px;
+  text-align: center;
+  margin: auto;
+
+}
+
+.stats-up-right-box img{
+  height: 40px;
+  width: 30px;
+}
+
+
+.stats-up-right-box h2{
+  margin-bottom: 5px;
+
+}
+
+.stats-up-right-box h1{
+  color: rgb(26, 134, 197);
+
+}
+
+.stats-up-right-box-flex{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+
+.stats-down{
+  border-top: 1px solid rgb(209, 205, 205,0.8);
+  padding-top: 15px;
+  margin-top: 20px;
+  height:300px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.stats-down-left{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.stats-games-chart{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.stats-down-right{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.stats-down-right-box{
+  padding: 15px;
+  height: 200px;
+  width: 230px;
+  margin: auto;
+  border: 1px solid rgba(29, 28, 28, 0.6);
+  border-radius: 10px;
+
+}
+
+
+
+.stats-down-right-box h2{
+  font-size: 20px;
+  text-align: center;
+}
+
+.stats-down-right-line{
+  width: 70%;
+  border-top: 1px solid black;
+  margin: 8px auto;
+}
+
+.stats-down-right-box-flex{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.stats-beginner{
+  color: rgb(118, 216, 118);
+}
+
+.stats-intermediate{
+  color: rgb(206, 181, 98);
+}
+
+.stats-expert{
+  color: rgb(202, 92, 92);
+}
+

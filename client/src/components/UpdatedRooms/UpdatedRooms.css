@@ -1,0 +1,56 @@
+
+
+
+#icon-lang{
+    height: 30px;
+    width: 48px;
+    padding: 2px;
+    margin-top: 2px;
+}
+
+.roomsList-bts{
+    height: 37px;
+    width: 75%;
+    display: block;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    background-color: rgb(214, 214, 212);
+    border-radius: 5px;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+
+
+.easy{
+    background-color: rgb(129, 218, 129);
+    color: white;
+}
+
+.easy:hover{
+    background-color: rgb(164, 224, 164);
+}
+
+.medium{
+    background-color: rgb(206, 181, 98);
+    color: white;
+}
+
+.medium:hover{
+    background-color: rgb(218, 197, 131);
+    color: white;
+}
+
+.hard{
+    background-color: rgb(202, 92, 92);
+    color: white;
+}
+
+.hard:hover{
+    background-color: rgb(219, 123, 123);
+    color: white;
+}

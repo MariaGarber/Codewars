@@ -1,0 +1,67 @@
+
+.timer{
+    padding: 5px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.timer p{
+    font-size: 19px;
+    color: rgb(27, 160, 115);
+}
+
+.timer h2{
+    color: rgb(192, 110, 110);
+    width: 120px;
+}
+
+.timer-container{
+    display: flex;
+    /* border: 1px solid green; */
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.timer-container p {
+    margin-right: 5px;
+}
+
+.timer-icon{
+    color: rgb(192, 110, 110);
+    padding-top: 2px;
+    padding-right: 10px;
+}
+
+.timer-top-para{
+    
+    text-align: center;
+}
+
+.demo{
+    transition: 0.4s all ease-in-out;
+    opacity: 1;
+}
+
+.hide-timer{
+    opacity: 0;
+}
+
+.hide-timer-btn{
+    border: none;
+    /* background-color: rgb(200, 110, 110); */
+    background-color: rgb(70, 66, 66);
+    border-radius: 4px;
+    color: white;
+    width: 100px;
+    height: 23px;
+    cursor: pointer;
+    transition: 0.4s all ease-in-out;
+    margin-left: 5px;
+}
+.hide-timer-btn:hover{
+  
+    background-color: rgb(104, 101, 101);
+    color: rgb(255, 255, 255);
+    
+ 
+}

@@ -1,0 +1,171 @@
+.profile {
+  /* height: 250%; */
+  width: 100%;
+  background-color: rgb(250, 250, 250);
+}
+
+.profile-background {
+  background-image: linear-gradient(rgba(76, 202, 139, 0.1), rgba(0, 0, 0, 0)),
+    url('../../assets/profile-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 90%;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.profile-container {
+  height: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-up {
+  height: 30%;
+  width: 100%;
+  margin-bottom: 4%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.profile-imge {
+  position: absolute;
+  top: 470px;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-imge img {
+  height: 200px;
+  width: 200px;
+}
+
+#profile-flag {
+  display: flex;
+  padding-left: 5px;
+}
+
+#profile-flag p {
+  font-size: 15px;
+  padding-left: 7px;
+  padding-top: 3px;
+}
+
+.profile-up-box {
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+}
+
+.profile-up-box label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.profile-up-box p {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  font-size: 17px;
+}
+
+.profile-down {
+  /* height: 74%; */
+
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.tabs {
+  /* height: 100%; */
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.profile-middle {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.profile-middle-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-middle-flex h2 {
+  margin: 10px 0;
+}
+
+.profile-middle-flex-inner {
+  padding: 10px 30px;
+}
+
+.profile-middle-flex button {
+  height: 35px;
+  width: 160px;
+  background-color: rgb(23, 113, 230);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 13px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.profile-middle-flex button:hover {
+  background-color: rgb(82, 165, 233);
+}
+
+.profile-add-friend-icon {
+  margin-left: 10px;
+}
+
+.profile-middle-accept-deny-btns {
+  display: flex;
+}
+
+#profile-middle-deny-color {
+  background-color: rgb(199, 24, 24);
+  margin-left: 35px;
+  margin-right: 70px;
+}
+
+#profile-middle-deny-color:hover {
+  background-color: rgb(221, 67, 67);
+}
+
+.mr-right-btn {
+  margin-right: 70px;
+}
+
+.friends-btn {
+  height: 35px;
+  width: 160px;
+  background-color: rgb(23, 113, 230);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 13px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}

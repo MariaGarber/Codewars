@@ -1,0 +1,39 @@
+.faq-loggedin {
+  padding-top: 3%;
+}
+
+.faq-notloggedin {
+  padding-top: 7%;
+}
+
+.faq-container {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq-container p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 1%;
+  margin-left: 0.5%;
+  line-height: 25px;
+}
+
+.faq-sep {
+  border: 0.25px solid rgb(214, 213, 213);
+  margin-top: 0.8%;
+  width: 100%;
+}
+
+.faq-container h2 {
+  color: #1ebea5;
+}
+
+
+
+.faq-component {
+  margin-top: 2%;
+}
