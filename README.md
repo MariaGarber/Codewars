@@ -18,10 +18,34 @@ At the war page, each user can see the random challenge and the editor where he 
 The user can navigate to his profile page and see his personal information, statistics, last wars and his friends list. Also, he can navigate to other users profile pages, send them friend requests, see theirs personal information, statistics and etc.
 
 ### Technologies
-* 
+* React at the client side
+* NodeJS & Express at the server side
+* MongoDB & Mongoose
+* Asynchronous tasks, Axios
+* Socket.io
+* Joi
+* Nodemailer & Google API's
 
+### How to install
+Clone the repository:
+```
+git clone https://github.com/MariaGarber/Codewars.git
+```
+Enter the clonned folder:
+```
+cd Codewars
+```
+Enter the client folder:
+```
+cd client
+```
+Install the dependencies:
+```
+npm install
+```
+Run the application:
+```
+npm start
+```
+Local app should open automatically, if it is not, open the browser at http://localhost:3000/
 
-Puppeteer
-Javascript
-NodeJS
-Express
