@@ -1,5 +1,5 @@
 # Codewars
-<p align="center"><img src="pictures/codewars_logo.png"/></p>
+<p align="center"><img src="pictures/codewars_logo.png" heigth="350" width="350"/></p>
 
 Codewars it is a learning environment that offers the user another way to learn and improve his programming skills. In this way, users face each other in real time code competitions. Those competitions not only improve his programming skills and logical thinking but also allows him to understand better what his programming level relative to other users in the world.
 
